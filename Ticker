@@ -1,0 +1,41 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "EUR to USD",
+      "proName": "CAPITALCOM:EURUSD"
+    },
+    {
+      "description": "EUR to SEK",
+      "proName": "CAPITALCOM:EURSEK"
+    },
+    {
+      "description": "USD to SEK",
+      "proName": "CAPITALCOM:USDSEK"
+    },
+    {
+      "description": "USD to EUR",
+      "proName": "FX_IDC:USDEUR"
+    },
+    {
+      "description": "SEK to USD",
+      "proName": "FX_IDC:SEKUSD"
+    },
+    {
+      "description": "SEK to EUR",
+      "proName": "FX_IDC:SEKEUR"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": true,
+  "largeChartUrl": "",
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "sv_SE"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
